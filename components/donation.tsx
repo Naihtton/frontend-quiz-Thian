@@ -6,7 +6,7 @@ import Donators from "./utils/donators";
 
 export default function Donation() {
   return (<>
-  <Donators  />
+  <Donators donation={null}  />
   </>
   );
 }
